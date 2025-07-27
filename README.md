@@ -1,10 +1,10 @@
 # 🏁 Tugas Akhir (TA) - Final Project
 
-**Nama Mahasiswa**: [Nama Lengkap]  
-**NRP**: [Nomor Registrasi Pokok]  
-**Judul TA**: [Judul Tugas Akhir]  
-**Dosen Pembimbing**: [Nama Dosen]  
-**Dosen Ko-pembimbing**: [Nama Dosen]
+**Nama Mahasiswa**: I Gusti Agung Ngurah Adhi Sanjaya
+**NRP**: 5025211056
+**Judul TA**: Rancang Bangun Modul Otentikasi dan Otorisasi Berbasis Rekognisi Wajah dengan Arsitektur Microservices dan API Gateway pada LMS Bahasa Inggris
+**Dosen Pembimbing**: Bintang Nuralamsyah S. Kom., M. Kom.
+**Dosen Ko-pembimbing**: Ratih Nur Esti Anggraini, S.Kom., M.Sc., Ph.D.
 
 ---
 
@@ -71,5 +71,5 @@ Pastikan proyek memenuhi kriteria berikut sebelum submit:
 ## ⁉️ Pertanyaan?
 
 Hubungi:
-- Penulis: [email@mahasiswa]
-- Pembimbing Utama: [email@pembimbing]
+- Penulis: gungadhisanjaya@gmail.com
+- Pembimbing Utama: bintang@its.ac.id
