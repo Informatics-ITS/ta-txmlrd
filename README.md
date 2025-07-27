@@ -9,62 +9,51 @@
 ---
 
 ## 📺 Demo Aplikasi  
-Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):  
-
-[![Demo Aplikasi](https://i.ytimg.com/vi/zIfRMTxRaIs/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)  
+[![Demo Aplikasi](https://sevima.com/wp-content/uploads/2021/06/lms-untuk-perguruan-tinggi.png)](https://www.youtube.com/watch?v=VIDEO_ID)  
 *Klik gambar di atas untuk menonton demo*
 
 ---
 
-*Konten selanjutnya hanya merupakan contoh awalan yang baik. Anda dapat berimprovisasi bila diperlukan.*
 
 ## 🛠 Panduan Instalasi & Menjalankan Software  
 
 ### Prasyarat  
-- Daftar dependensi (contoh):
-  - Python 3.10+
-  - Node.js v18+
-  - MySQL 8.0
-  - [Lainnya...]
+- Daftar syarat :
+  - Memiliki docker yang terinstall pada device.
+
 
 ### Langkah-langkah  
 1. **Clone Repository**  
    ```bash
-   git clone https://github.com/Informatics-ITS/TA.git
+   git clone https://github.com/Informatics-ITS/ta-txmlrd
    ```
-2. **Instalasi Dependensi**
-   ```bash
-   cd [folder-proyek]
-   pip install -r requirements.txt  # Contoh untuk Python
-   npm install  # Contoh untuk Node.js
-   ```
+2. **Pisahkan 4 Layanan**
+- Setelah clone repo, pisahkan setiap layanan yang terdiri dari user management service, auth & security service, role management service dan api gateway
+- Lalu masuk ke direktori masing-masing layanan untuk melanjutkan menjalankan docker setiap layanan
+
 3. **Konfigurasi**
-- Salin/rename file .env.example menjadi .env
-- Isi variabel lingkungan sesuai kebutuhan (database, API key, dll.)
-4. **Jalankan Aplikasi**
+- Konfigurasi mengharuskan file .env yang tepat, dikarenakan file env yang ter-config pada repo ini menyangkut data sensitif, dapat menghubungi penulis untuk mendapatkan data valid.
+
+4. **Instalasi Pada Setiap Layanan**
+- Untuk build pertama kali dapat menjalankan kode ini
    ```bash
-   python main.py  # Contoh untuk Python
-   npm start      # Contoh untuk Node.js
+   cd [setiap-layanan]
+   docker-compose up --build
    ```
-5. Buka browser dan kunjungi: `http://localhost:3000` (sesuaikan dengan port proyek Anda)
+- Jika ingin, stop docker dapat menjalankan kode berikut
+   ```bash
+   docker-compose down
+   ```
+- Jika ingin start lagi tanpa build dapat menjalankan kode berikut
+   ```bash
+   docker-compose up
+   ```
 
----
-
-## 📚 Dokumentasi Tambahan
-
-- [![Dokumentasi API]](docs/api.md)
-- [![Diagram Arsitektur]](docs/architecture.png)
-- [![Struktur Basis Data]](docs/database_schema.sql)
-
----
-
-## ✅ Validasi
-
-Pastikan proyek memenuhi kriteria berikut sebelum submit:
-- Source code dapat di-build/run tanpa error
-- Video demo jelas menampilkan fitur utama
-- README lengkap dan terupdate
-- Tidak ada data sensitif (password, API key) yang ter-expose
+5. Buka postman untuk testing backend setiap layanan dengan list port:
+- `http://localhost:5000` untuk port auth & security service
+- `http://localhost:5001` untuk port user management service
+- `http://localhost:5002` untuk port api gateway
+- `http://localhost:5003` untuk port role management service
 
 ---
 
