@@ -1,0 +1,15 @@
+Flask
+Flask-SQLAlchemy
+Flask-Bcrypt
+Flask-Mail
+itsdangerous
+python-dotenv
+PyMySQL
+Werkzeug
+deepface
+Pillow
+tensorflow==2.12.0
+cryptography
+Flask-JWT-Extended
+flask_migrate
+redis
