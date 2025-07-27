@@ -1,10 +1,10 @@
 # 🏁 Tugas Akhir (TA) - Final Project
 
-**Nama Mahasiswa**: [I Gusti Agung Ngurah Adhi Sanjaya]  
-**NRP**: [5025211056]  
-**Judul TA**: [Rancang Bangun Modul Otentikasi dan Otorisasi Berbasis Rekognisi Wajah dengan Arsitektur Microservices dan API Gateway pada LMS Bahasa Inggris]  
-**Dosen Pembimbing**: [Bintang Nuralamsyah S. Kom., M. Kom.]  
-**Dosen Ko-pembimbing**: [Ratih Nur Esti Anggraini, S.Kom., M.Sc., Ph.D.]  
+**Nama Mahasiswa**: I Gusti Agung Ngurah Adhi Sanjaya  
+**NRP**: 5025211056  
+**Judul TA**: Rancang Bangun Modul Otentikasi dan Otorisasi Berbasis Rekognisi Wajah dengan Arsitektur Microservices dan API Gateway pada LMS Bahasa Inggris  
+**Dosen Pembimbing**: Bintang Nuralamsyah S. Kom., M. Kom.  
+**Dosen Ko-pembimbing**: Ratih Nur Esti Anggraini, S.Kom., M.Sc., Ph.D.  
 
 ---
 
