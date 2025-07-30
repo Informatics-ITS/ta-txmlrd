@@ -9,7 +9,7 @@
 ---
 
 ## 📺 Demo Aplikasi  
-[![Demo Aplikasi](https://sevima.com/wp-content/uploads/2021/06/lms-untuk-perguruan-tinggi.png)](https://www.youtube.com/watch?v=VIDEO_ID)  
+[![Demo Aplikasi](https://sevima.com/wp-content/uploads/2021/06/lms-untuk-perguruan-tinggi.png)](https://www.youtube.com/watch?v=dRW56fCHYsA)  
 *Klik gambar di atas untuk menonton demo*
 
 ---
